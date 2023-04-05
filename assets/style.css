@@ -443,8 +443,6 @@ footer nav ul {
 	color: black; 
   }
 
-
-
   .modal-close {
 	position: relative;
 	top: 5px;
@@ -454,10 +452,10 @@ footer nav ul {
   }
 
   .modal-images {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
 	justify-content: space-between;
 	padding: 25px 64px 14px 64px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .work{
 	display: flex;
@@ -612,7 +610,7 @@ footer nav ul {
 
 
 #avatar {
-	width: 173px;
+	width: 160px;
 	display: none;
 	position: absolute;
 	height: 165px;
@@ -650,7 +648,7 @@ footer nav ul {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 173px;
+width: 160px;
 height: 36px;
 background-color: #CBD6DC;
 color: #306685;
