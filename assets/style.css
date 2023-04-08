@@ -596,6 +596,7 @@ footer nav ul {
   	width: 420px;
 	padding-bottom: 5px;
 	margin-top: 47px;
+	justify-content: center;
 }
 
 #send-validation {
@@ -606,6 +607,11 @@ footer nav ul {
 	background-color: #A7A7A7;
 	border: none;
 	cursor: pointer;
+	border-radius: 15px;
+	align-items: center;
+	margin: 2em;
+	font-family: "syne";
+	color: white;
 }
 
 
